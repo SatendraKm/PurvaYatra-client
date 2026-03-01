@@ -63,7 +63,7 @@ npm run build
 ## Extending the Platform
 
 ### Adding more destinations
-Open `src/constants/index.js` and add to the `DESTINATIONS` array following the existing schema:
+Open `src/constants.js` and add to the `DESTINATIONS` array following the existing schema:
 ```js
 {
   id: 13,
@@ -84,7 +84,7 @@ Open `src/constants/index.js` and add to the `DESTINATIONS` array following the 
 ```
 
 ### Adding restaurants / recipes / facts
-Same pattern — just extend the arrays in `src/constants/index.js`.
+Same pattern — just extend the arrays in `src/constants.js`.
 
 ## Design System
 
