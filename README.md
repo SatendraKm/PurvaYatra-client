@@ -1,14 +1,16 @@
-# 🌏 PurvaYatra — East India Tourism Platform
+# PurvaYatra — East India Tourism Platform
 
 A complete, client-side digital tourism platform for East India built with **Vite + React + Tailwind CSS**.
 
+vercel url- https://purvayatra.vercel.app/
+
 ## Features
 
-- 🏛️ **Destinations** — 12 destinations with filtering by category, difficulty, state, and search
+- 🏛️ **Destinations** — 7 destinations with filtering by category, difficulty, state, and search
 - 🎭 **Experiences** — Browse destinations by tourism type (Heritage, Eco, Adventure, etc.)
 - 🍽️ **Restaurants** — Curated restaurants with cuisine, price range, and veg filters
 - 🍲 **Recipes** — Traditional East India recipes with step-by-step modal view
-- 💡 **Fun Facts** — 15+ fascinating facts filterable by category and state
+- 💡 **Fun Facts** — 5+ fascinating facts filterable by category and state
 - 🗺️ **Plan Trip** — 3-step trip planning form with preferences, budget, and contact info
 - 🔍 **URL-based search** — Search state persists in URL for sharing/linking
 
@@ -24,8 +26,7 @@ A complete, client-side digital tourism platform for East India built with **Vit
 
 ```
 src/
-├── constants/
-│   └── index.js          # ALL data — destinations, restaurants, recipes, facts, etc.
+├── constants.js          # ALL data — destinations, restaurants, recipes, facts, etc.
 ├── utils/
 │   └── index.js          # Filter, sort, and utility functions
 ├── hooks/
